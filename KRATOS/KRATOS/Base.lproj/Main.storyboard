@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KRATOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Teal Square" translatesAutoresizingMaskIntoConstraints="NO" id="PjW-sS-QEO">
+                                <rect key="frame" x="0.0" y="-42" width="375" height="699"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Teal Background" translatesAutoresizingMaskIntoConstraints="NO" id="cTO-5J-4LB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yrj-eS-nuh">
+                                <rect key="frame" x="162" y="323" width="180" height="35"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Stronger Bodies">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="25" name="Avenir-Book"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5m-Rd-HSA">
+                                <rect key="frame" x="166" y="461" width="172" height="35"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Stronger Minds">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="25" name="Avenir-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cTO-5J-4LB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4NO-rb-d75"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PjW-sS-QEO" secondAttribute="bottom" constant="121" id="8CW-rK-J2c"/>
+                            <constraint firstItem="Yrj-eS-nuh" firstAttribute="centerX" secondItem="r5m-Rd-HSA" secondAttribute="centerX" id="GfY-FI-noz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yrj-eS-nuh" secondAttribute="trailing" constant="33" id="I0s-YQ-34p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r5m-Rd-HSA" secondAttribute="bottom" constant="282" id="Jmv-LV-4SQ"/>
+                            <constraint firstItem="PjW-sS-QEO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qks-Pr-JA7"/>
+                            <constraint firstItem="Yrj-eS-nuh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="162" id="Sca-7X-Lbm"/>
+                            <constraint firstItem="PjW-sS-QEO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-42" id="bdz-GJ-hTT"/>
+                            <constraint firstItem="Yrj-eS-nuh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="279" id="bv2-rQ-ZvM"/>
+                            <constraint firstItem="PjW-sS-QEO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dWr-Xj-RvM"/>
+                            <constraint firstItem="cTO-5J-4LB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gJu-6I-G9s"/>
+                            <constraint firstItem="cTO-5J-4LB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hLn-z2-v8H"/>
+                            <constraint firstAttribute="bottom" secondItem="cTO-5J-4LB" secondAttribute="bottom" id="hU8-Fb-RcX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="strongerB" destination="Yrj-eS-nuh" id="Mt0-6c-D9p"/>
+                        <outlet property="strongerM" destination="r5m-Rd-HSA" id="cYn-4h-MeV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42.399999999999999" y="18.472906403940886"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Teal Background" width="1242" height="2208"/>
+        <image name="Teal Square" width="1242" height="2208"/>
+    </resources>
+    <color key="tintColor" red="0.14850014480000001" green="0.4602727425" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
